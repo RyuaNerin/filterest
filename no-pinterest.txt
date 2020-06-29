@@ -1,0 +1,10 @@
+[Adblock Plus 2.0]
+! Title: filterest
+! Description: Filter Pinterest on Google search and DuckDuckGo
+! Homepage: https://github.com/RyuaNerin/filterest
+! License: https://github.com/RyuaNerin/filterest#license
+! Expires: 4 days
+! Version: 2020-06-29 10:08
+
+google.com#?#div[role="main"] > div#search div[data-async-context] > div > div[data-ved]:contains(/pinterest\./)
+duckduckgo.com#?#div.result:contains(/pinterest\./)
