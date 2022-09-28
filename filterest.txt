@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/RyuaNerin/filterest
 ! License: https://github.com/RyuaNerin/filterest#license
 ! Expires: 4 days
-! Version: 2020-08-13 10:41
+! Version: 2022-09-28 21:34
 
 google.com#?#div[role="main"] div#search div[data-async-context] div.g[data-hveid]:-abp-contains(/pinterest\./)
 duckduckgo.com#?#div.results article:-abp-contains(/pinterest\./)
